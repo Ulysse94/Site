@@ -30,6 +30,7 @@ html {
 
 h2 {
     color: aliceblue;
+    font-size: 50px;
 }
 
 a:focus,
@@ -44,7 +45,7 @@ img {
 }
 
 .carousel-caption {
-    top: 45%;
+    bottom: 50%;
 }
 .carousel-inner {
     height: 100vh;
