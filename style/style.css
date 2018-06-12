@@ -43,6 +43,9 @@ img {
     opacity: 0.5;
 }
 
+.carousel-caption {
+    top: 45%;
+}
 .carousel-inner {
     height: 100vh;
 }
