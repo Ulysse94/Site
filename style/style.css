@@ -1,28 +1,33 @@
-.carousel-inner .item{
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+.carousel-inner .item {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a', GradientType=0);
+    /* IE6-9 */
     text-align: center;
-    height:100vh;
+    height: 100%;
 }
-.control-buttons{
-	text-align:center;
+
+.control-buttons {
+    text-align: center;
 }
+
 .transition-timer-carousel-progress-bar {
     height: 3px;
-    background-color: #5cb85c;/*progress bar color*/
+    background-color: #5cb85c;
+    /*progress bar color*/
     width: 0;
     margin: 0 0 0 0;
     border: none;
     z-index: 11;
     position: relative;
 }
-.carousel-control{
-	z-index: 11;
+
+.carousel-control {
+    z-index: 11;
 }
 
 html {
-    height:100vh;
     overflow: hidden;
 }
+
 h2 {
     color: aliceblue;
 }
@@ -31,10 +36,15 @@ a:focus,
 a:hover {
     text-decoration: none;
 }
+
 img {
     width: 100%;
     margin: 0 auto;
     opacity: 0.5;
+}
+
+.carousel-inner {
+    height: 100vh;
 }
 
 .site1 {
@@ -42,15 +52,23 @@ img {
 }
 
 .site2 {
-    background: #a7cfdf; /* Old browsers */
-	background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #a7cfdf;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .site3 {
-    background: white; /* Old browsers */
-	background: -moz-linear-gradient(top, white 0%, #a7cfdf 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, white 0%, #a7cfdf 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, white 0%, #a7cfdf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: white;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, white 0%, #a7cfdf 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, white 0%, #a7cfdf 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, white 0%, #a7cfdf 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
